@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sold: "
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_soldhistitem_soldquantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textColor="@color/black"
+        android:layout_weight="1.1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="units on"
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_soldhistitem_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="15/1/2015"
+        android:layout_weight=".9"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" at Rs: "
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_soldhistitem_sellprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text=" 500"
+        android:layout_weight="1"/>
+
+</LinearLayout>
